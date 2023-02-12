@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabuada.</title>
-    <link rel="stylesheet" href="estili_teste.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -16,62 +16,20 @@
             <p>Escolha um valor para ser calculado a sua tabuada</p>  
         </div>
         <div>
-            <p>
-            <input type="radio" name="tabu" id="1">
-            <label for="1">Tabuada do 1</label>
-            </p>
-            <p>
-            <input type="radio" name="tabu" id="2">
-            <label for="2">Tabuada do 2</label>
-            </p>
-            <p>
-            <input type="radio" name="tabu" id="3">
-            <label for="3">Tabuada do 3</label>
-            </p>
-            <p>
-            <input type="radio" name="tabu" id="4">
-            <label for="4">Tabuada do 4</label>
-            </p>
-            <p>
-            <input type="radio" name="tabu" id="5">
-            <label for="5">Tabuada do 5</label>
-            </p>
-            <p>
-            <input type="radio" name="tabu" id="6">
-            <label for="6">Tabuada do 6</label>
-            </p>
-            <p>
-            <input type="radio" name="tabu" id="7">
-            <label for="7">Tabuada do 7</label>
-            </p>
-            <p>
-            <input type="radio" name="tabu" id="8">
-            <label for="8">Tabuada do 8</label>
-            </p>
-            <p>
-            <input type="radio" name="tabu" id="9">
-            <label for="9">Tabuada do 9</label>
-            </p>
-            <p>
-            <input type="radio" name="tabu" id="10">
-            <label for="10">Tabuada do 10</label>
-            </p>
-        </div>
-        <div>
-            <p>Ou digite um valor maior que 10 abaixo:
-                <input type="number" name="escolha" id="escolha">
-            </p>
+            <p>Digite o valor:
+                <input type="number" name="escolha" id="escolha"></p>
         </div>
         <div>
             <p>
-                <input type="button" value="Calcular" onclick="calcular()">
-            </p>
+                <input type="button" value="Calcular" onclick="calcular()"></p>
         </div>
-        <div id="res"></div>
+        <div>
+            <select name="tabuada" id="seltab" size="10"></select>
+        </div>
     </section>
     <footer>
         <p>&copy; JeanPRG</p>
     </footer>
-    <script src="teste_script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -27,3 +27,11 @@ footer{
     font-style: italic;
     text-align: center;
 } 
+
+select{
+    width: 150px;
+    font: arial;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.596);
+}
